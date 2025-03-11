@@ -1,0 +1,13 @@
+/* Style = CSS */
+/* Estilos a nivel general */
+* {
+    margin: 10px;
+}
+/* Estilos a nivel de elementos */
+h1 {
+    color: red
+}
+/* Estilos a nivel de clase */
+.parrafos {
+    font-size: 50px;
+}
