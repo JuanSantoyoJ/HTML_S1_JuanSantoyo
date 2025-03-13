@@ -1,0 +1,48 @@
+#foto{
+    border-radius: 30%;
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    height: 230px;
+    object-fit: cover;
+    border-width: 2px;
+    border-style: solid;
+
+}
+.cuadro_de_foto{
+    border: 3px solid black;
+    border-radius: 25%;
+    margin: 0 auto;
+    display: block;
+}
+
+.font {
+    font-family: fantasy;
+    font-style: papyrus;
+}
+.tabla_base{
+    display: flex;
+    background-color: beige;
+    justify-content:center;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    margin-top: 500px;
+    margin-left: 350px;
+    margin-right: 282px;
+    border: 2px solid black;
+
+}
+.santoyo{
+    background-color: beige;
+    color: black;
+    font-size: 20px;
+    font-family: fantasy;
+    font-style: papyrus;
+    padding: 2px;
+    border: 2px solid black;
+    margin: 5px;
+}
+body{
+    background-color: #657d99;
+} 
