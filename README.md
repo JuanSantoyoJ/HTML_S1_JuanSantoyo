@@ -7,6 +7,7 @@ En el siguiente README vamos a poder apreciar el contenido que tiene este reposi
 | 1 | [Dia1](Dia1) |
 | 2 | [Dia2](Dia2) |
 | 3 | [Dia3](Dia3) |
+| 4 | [Dia4](Dia4) |
 
 ## Instalación 📌
 A continuación se darán unas instrucciones de como poder ejecutar los programas, estas instrucciones te permitirán poder usar y ejecutara todas las funciones de los trabajos anteriormente desarrollados.
