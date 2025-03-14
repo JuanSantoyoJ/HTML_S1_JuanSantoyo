@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+
+    <div class="formulario">
+        <h1>FORMULARIO</h1>
+    </div>
+
+    <form class="formulario" name="Formulario" method="post" action="./pagina2.html">
+
+        <input class="formulario" type="text" name="nombre" placeholder="Nombre" maxlength="50" /><br><br>
+        <input class="formulario" type="text" name="apellido" placeholder="Apellido" maxlength="50" /><br><br>
+        <label>Seleccione su sexo</label>
+        <select class="sexo" name="sexo">
+            <option>Hombre</option>
+            <option>Mujer</option>
+        </select><br><br>
+        <input class="formulario" type="email" name="correo" placeholder="correo" /><br><br>
+        <input class="formulario" type="checkbox" name="casilla" placeholder="casilla" checked />Deseo recibir informacion
+        adicional sobre novedades y ofertas<br><br>
+        <pre class="formulario"><input class="formulario" type="checkbox" name="casilla" placeholder="casilla" />Declaro haber leido y aceptado las condiciones generales del programa y la normativa sobre la proteccion de datos</pre>
+        <br><br>
+        <input class="formulario" type="submit" value="Enviar"/>
+        <br><br>
+        <label>Seleccione su ciudad</label>
+        <select>
+            <option>Bucaramanga</option>
+            <option>Floridablanca</option>
+            <option>Giron</option>
+            <option>Piedecuesta</option>
+        </select><br><br>
+
+        <label for="comentarios">
+            <h2>Descripcion</h2>
+        </label>
+        <textarea class="cuadrito" name="comentarios" id="comentarios" cols="90" rows="30"></textarea>
+    </form>
+</body>
+
+</html>
