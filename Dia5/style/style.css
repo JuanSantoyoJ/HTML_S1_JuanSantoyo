@@ -1,7 +1,276 @@
-body{
-    width: 1000px;
-    height: 1000px;
-    background-image: url(../fotos/fondo_twich.png);
-    background-position: center; 
-    background-repeat: no-repeat; 
+body {
+    margin: 0;
+    background-image: url("../fotos/fondo_negro.png");
+    background-size: cover;
+    background-repeat: no-repeat; /* Fixed the typo here */
+    font-family: 'Amazon Ember', sans-serif;
+    background-color: black;
+}
+
+@font-face {
+    font-family: 'Amazon Ember';
+    src: url('fonts/AmazonEmber-Light.ttf') format('truetype');
+    font-weight: 300; /* Light */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Amazon Ember';
+    src: url('fonts/AmazonEmber-Bold.ttf') format('truetype');
+    font-weight: 700; /* Bold */
+    font-style: normal;
+}
+
+h2, p, h1 {
+    font-family: 'Amazon Ember';
+    font-weight: 300; /* Light */
+    font-style: normal;
+}
+
+#imagen1 {
+    width: 1920px;
+    height: 1080px;
+}
+
+#imagen2 {
+    /* Layout Properties */
+    position: absolute;
+    top: 37px;
+    left: 63px;
+    width: 36px;
+    height: 36px;
+    display: block;
+}
+
+#imagen3 {
+    /* Layout Properties */
+    position: absolute;
+    top: 227px;
+    left: 682px;
+    width: 556px;
+    height: 313px;
+    display: block;
+}
+
+#imagen4 {
+    /* Layout Properties */
+    position: absolute;
+    top: 1106px;
+    left: calc(50% - 896px); /* Ajusta el valor según el ancho de la imagen */
+    width: 1792px;
+    height: 567px;
+    margin-top: 20px; /* Ajusta el valor según el espacio deseado */
+}
+
+#imagen5 {
+    position: absolute;
+    top: 617px;
+    left: calc(50% - 896px); /* Ajusta el valor según el ancho de la imagen */
+    width: 1792px;
+    height: 724px;
+    margin-top: 30px; /* Ajusta el valor según el espacio deseado */
+}
+
+#imagen6 {
+    position: absolute;
+    top: 1360px;
+    left: calc(50% - 896px); /* Ajusta el valor según el ancho de la imagen */
+    width: 1792px;
+    height: 724px;
+    margin-top: 70px; /* Ajusta el valor según el espacio deseado */
+}
+
+.div_login {
+    /* Layout Properties */
+    position: absolute;
+    top: 30px;
+    left: 1695px;
+    width: 205px;
+    height: 54px;
+    text-align: center;
+    font-size: 18px;
+    display: block;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.SloganPrime {
+    position: absolute;
+    text-align: center;
+    top: 424px;
+    left: 389px;
+    width: 1151px;
+    height: 60px;
+    font-size: 25px;
+    color: #FFFFFF;
+    display: block;
+}
+
+.Amazon {
+    position: absolute;
+    top: 570px;
+    left: 300px;
+    width: 1151px;
+    height: 60px;
+    text-align: center;
+    font-size: 25px;
+    color: #FFFFFF;
+    display: block;
+}
+
+.SingUp {
+    position: absolute;
+    top: 800px;
+    left: 730px;
+    width: 458px;
+    height: 104px;
+    text-align: center;
+    font-size: 37px;
+    display: block;
+    background-color: #FFFFFF;
+    border-radius: 100px;
+    color: black;
+    padding-bottom: 20px;
+}
+
+.movies_amazon {
+    position: relative;
+}
+
+.movies_amazon .contenido {
+    position: absolute;
+    top: 700px; /* Ajusta según sea necesario */
+    left: 250px; /* Ajusta según sea necesario */
+    width: calc(100% - 500px); /* Ajusta según sea necesario */
+    height: calc(100% - 500px); /* Ajusta según sea necesario */
+    color: white;
+    text-align: center;
+}
+
+.movies_amazon .contenido h2 {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 60px;
+}
+
+.movies_amazon .contenido .movies {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.movies_amazon .contenido .movies img {
+    top: 1696px;
+    left: 863px;
+    width: 180px;
+    height: 309px;
+}
+
+.movies_amazon .contenido p {
+    margin: 10px 0;
+    font-size: 50px;
+}
+
+.cancela_prime {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.cancela_prime .contenido_cancela {
+    position: absolute;
+    top: 1780px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+}
+
+.cancela_prime .contenido_cancela h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.cancela_prime .contenido_cancela .ImagenX {
+    margin: 20px 0;
+}
+
+.cancela_prime .contenido_cancela .ImagenX img {
+    width: 168px;
+    height: 168px;
+}
+
+.cancela_prime .contenido_cancela p {
+    font-size: 40px;
+}
+
+.compatible {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 50px 0;
+    top: 2150px;
+}
+
+.compatible .contenido_compatible {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.compatible .contenido_compatible h1 {
+    font-size: 125px;
+    margin-bottom: 20px;
+}
+
+.compatible .contenido_compatible p {
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+
+.compatible .dispositivos {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.compatible .dispositivo {
+    text-align: center;
+}
+
+.compatible .dispositivo img {
+    width: 100px; /* Ajusta según sea necesario */
+    height: auto;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.compatible .dispositivo p {
+    font-size: 1000px;
+}
+.flecha{
+    top: 3689px;
+    left: 305px;
+    width: 19px;
+    height: 27px;
+   
+}
+.celular{
+    top: 3606px;
+    left: 386px;
+    width: 300px;
+    height: 280px;
+}
+.mac{
+    top: 3440px;
+    left: 400px;
+    width: 400px;
+    height: 400px;
+}
+.pc{
+    top: 3587px;
+    left: 1261px;
+    width: 271px;
+    height: 238px;
 }
