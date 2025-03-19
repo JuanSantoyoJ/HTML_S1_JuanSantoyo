@@ -3,9 +3,6 @@ body{
     height: 1900px;
     width: 1920px;
 }
-p{
-    font-family: Ope;
-}
 #rectangulo_base{
     position: relative;
     top: 150px;
@@ -13,6 +10,7 @@ p{
     width: 1400px;
     height: 800px;
 }
+
 #rectangulo_derecha{
     position: absolute;
     top: 158px;
@@ -30,19 +28,8 @@ p{
 #Comprar_Tarjeta {
     position: absolute;
     white-space: nowrap;
-    top: 150px;
+    top: 185px;
     left: 1088px;
-    width: 230px;
-    height: 41px;
-    font-weight: 1000px;
-    font-size: 30px;
-}
-#Ver_Saldo{
-    position: absolute;
-    white-space: nowrap;
-    display: inline-block;
-    top: 180px;
-    left: 1330px;
     width: 230px;
     height: 41px;
     font-weight: 1000px;
@@ -50,35 +37,47 @@ p{
     color: black;
     text-decoration: none;
 }
-#Ver_Saldo:hover{
+#Comprar_Tarjeta:hover{
     background-image: linear-gradient(rgb(17, 142, 6), rgb(232, 231, 231));
     padding: 2px 4px;
     border-radius: 5px;
-    width: 130px;
+    width: 200px;
     cursor: pointer;
     
+}
+#Ver_Saldo{
+    position: absolute;
+    white-space: nowrap;
+    display: inline-block;
+    top: 155px;
+    left: 1330px;
+    width: 230px;
+    height: 41px;
+    font-weight: 1000px;
+    font-size: 30px;
+    color: black;
 }
 #linea{
     position: absolute;
     top: 240px;
-    left: 1120px;
+    left: 1320px;
 
 }
 #lupa{
     position: absolute;
-    top: 185px;
+    top: 190px;
     left: 1480px;
 }
 #carrito{
     position: absolute;
-    top: 180px;
+    top: 190px;
     left: 1550px;
 }
 #TarjetaM{
     position: absolute;
     white-space: nowrap;
-    top: 800px;
-    left: calc(50% - 660px);
+    top: 510px;
+    left: calc(50% - 350px);
     width: 230px;
     height: 41px;
     font-weight: 1000px;
@@ -87,20 +86,52 @@ p{
 #COP{
     position: absolute;
     white-space: nowrap;
-    top: 860px;
-    left: calc(50% - 660px);
+    top: 580px;
+    left: calc(50% - 210px);
     width: 230px;
     height: 41px;
     font-weight: 1000px;
     font-size: 28px;
 }
+#SaldoEsc{
+    position: absolute;
+    white-space: nowrap;
+    top: 630px;
+    left: calc(50% - 150px);
+    width: 230px;
+    height: 41px;
+    font-weight: 1000px;
+    font-size: 28px;
+}
+.cuadrado{
+    position: absolute;
+    top: 720px;
+    left: 780px;
+    width: 288px;
+    height: 58px;
+    border: 3px solid gray;
+    text-align: center;
+    border-radius: 10px;
+}
+#valor1500{
+    position: absolute;
+    top: 710px;
+    left: 893px;
+    width: 230px;
+    height: 41px;
+    font-weight: 1000px;
+    font-size: 28px;
+    color: gray;
+  
+}
 #tarjetametro{
     position: absolute;
     top: 250px;
-    left: 300px;
-    width: 1100px;
-    height: 600px;
+    left: 650px;
+    width: 576px;
+    height: 324px;
 }
+
 #rectangulo_verde{
     position: absolute;
     top: 800px;
@@ -140,18 +171,38 @@ p{
 #cantidad{
     position: absolute;
     top: 300px;
-    left: 1650px;
+    left: 1660px;
     font-size: 20px;
     z-index: 1;
     color: white;
 }
-#numeros{
+#valor_1000{
     position: absolute;
-    top: 460px;
-    left: 1670px;
-    width: 23px;
-    height: 187px;
-    font-size: 20px;
+    top: 420px;
+    left: 1660px;
+    width: 70px;
+    font-size: 25px;
+    height: 14px;
+    z-index: 1;
+    color: gray;
+}
+#valor_1500{
+    position: absolute;
+    top: 490px;
+    left: 1660px;
+    width: 70px;
+    font-size: 25px;
+    height: 14px;
     z-index: 1;
     color: white;
+}
+#valor_2000{
+    position: absolute;
+    top: 560px;
+    left: 1660px;
+    width: 70px;
+    font-size: 25px;
+    height: 14px;
+    z-index: 1;
+    color: gray;
 }
