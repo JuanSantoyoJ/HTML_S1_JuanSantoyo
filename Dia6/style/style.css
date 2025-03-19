@@ -1,10 +1,16 @@
+@font-face {
+    font-family: 'FuenteR';
+    src: url('../fonts/OpenSans-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 body{
     background-image: linear-gradient(white, black);
     height: 1900px;
     width: 1920px;
 }
 p{
-    font-family: Ope;
+    font-family: 'FuenteR', sans-serif;
 }
 #rectangulo_base{
     position: relative;
@@ -31,7 +37,7 @@ p{
     position: absolute;
     white-space: nowrap;
     top: 150px;
-    left: 1088px;
+    left: 1030px;
     width: 230px;
     height: 41px;
     font-weight: 1000px;
@@ -42,26 +48,27 @@ p{
     white-space: nowrap;
     display: inline-block;
     top: 180px;
-    left: 1330px;
+    left: 1310px;
     width: 230px;
     height: 41px;
     font-weight: 1000px;
     font-size: 30px;
     color: black;
     text-decoration: none;
+    font-family: 'FuenteR', sans-serif;
 }
 #Ver_Saldo:hover{
     background-image: linear-gradient(rgb(17, 142, 6), rgb(232, 231, 231));
     padding: 2px 4px;
     border-radius: 5px;
-    width: 130px;
+    width: 140px;
     cursor: pointer;
     
 }
 #linea{
     position: absolute;
     top: 240px;
-    left: 1120px;
+    left: 1100px;
 
 }
 #lupa{
@@ -140,7 +147,7 @@ p{
 #cantidad{
     position: absolute;
     top: 300px;
-    left: 1650px;
+    left: 1640px;
     font-size: 20px;
     z-index: 1;
     color: white;
