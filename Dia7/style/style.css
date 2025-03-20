@@ -1,3 +1,64 @@
-body{
-    background-color: black;
+body {
+    background-color: rgba(0, 0, 0, 0.877);
+}
+
+#home{
+    text-align: center;
+    margin-top: 250px;
+    padding-top: 0px;
+}
+
+#taza_menu {
+    width: 400px;
+    height: 400px;
+}
+
+.texto {
+    color: white;
+    font-size: 40px;
+}
+
+#texto_taza1 {
+    text-align: center;
+}
+
+#shop_now {
+    background-color: #e69a39;
+    color: black;
+    width: 200px;
+    height: 70px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#shop_now:hover {
+    background-color: #e4b880;
+    color: white;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+    margin-left: 200px;
+    color: white;
+    font-size: 50px;
+}
+.partes{
+    margin-left: 1300px;
+    margin-top: -100px;
+}
+a.partes{
+    color: white;
+    margin: 2px 3px;
+    padding: 0px 20px;
+    text-decoration: none;
+    font-size: 30px;
+}
+a.partes:hover{
+    text-decoration: underline #ce9e5a;
+}
+#taza_about1{
+    width: 850px;
+    height: 600px;
+    
 }
