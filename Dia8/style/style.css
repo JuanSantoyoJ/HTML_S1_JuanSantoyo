@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(1, 1, 31);
+    margin: auto 20%;
+}
+
+.FondoNegroGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 10px;
+    gap: 1.8%;
+    background-color: black;
+    width: 100%;
+    margin-top: 3%;
+}
+
+
+.FondoNegroGrid--Rc1{
+    grid-row: 1/2;
+}
+
+.FondoNegroGrid--Rc1 > iframe{
+    width: 100%;
+    aspect-ratio: 16/9;
+    border-radius: 15px;
+}
+
+.FondoNegroGrid--Rc3{
+    grid-row: span 1;
+    border-radius: 15px;
+
+}
+.FondoNegroGrid--Rc3 > iframe{
+    width: 100%;
+    aspect-ratio: 16/9;
+    border-radius: 15px;
+}
+
+.FondoNegroGrid--Rc2{
+    grid-row: span 2;
+    border-radius: 15px;
+}
+
+.FondoNegroGrid--Rc2 > img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.FondoNegroGrid--Rc4{
+    border-radius: 15px;
+    grid-column: span 2;
+}
+
+.FondoNegroGrid--Rc4 > iframe{
+    width: 100%;
+    border-radius: 20px;
+    aspect-ratio: 16/9;
+}
+
+.FondoNegroGrid--Rc1 > iframe,
+.FondoNegroGrid--Rc3 > iframe,
+.FondoNegroGrid--Rc4 > iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.FondoNegroGrid--Rc1 > img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.FondoNegroGrid--Rc2 > img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.FondoNegroGrid--Seccion2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
+    gap: 10px;
+}
+
+.Seccion2Rc1 {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.Seccion2Rc2 {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.Seccion2Rc3 {
+    grid-column: span 1;
+    grid-row: 2;
+}
