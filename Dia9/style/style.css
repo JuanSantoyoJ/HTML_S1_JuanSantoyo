@@ -1,0 +1,22 @@
+body{
+    background-image: url(../img/paisajiño.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.solecito{
+    display: flex;
+    justify-content: center;
+}
+.sol{
+    width: 600px;
+    height: 600px;
+    animation: aparecer 4s linear;
+}
+@keyframes aparecer{
+    0%{
+        opacity: 0.2;
+    }
+    100%{
+        opacity: 1;
+    }
+}
