@@ -1,22 +1,77 @@
-body{
+body {
     background-image: url(../img/paisajiño.avif);
     background-size: cover;
     background-repeat: no-repeat;
 }
-.solecito{
+
+.solecito {
     display: flex;
     justify-content: center;
 }
-.sol{
+
+.sol {
     width: 600px;
     height: 600px;
     animation: aparecer 4s linear;
 }
-@keyframes aparecer{
-    0%{
+
+@keyframes aparecer {
+    0% {
         opacity: 0.2;
     }
-    100%{
+
+    100% {
         opacity: 1;
+    }
+}
+
+.text {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: beige;
+    flex-direction: column;
+}
+
+.number {
+    position: absolute;
+    opacity: 0;
+    animation: conteo 1s linear forwards;
+    font-size: 100px;
+}
+
+#n1 {
+    animation-delay: 0s;
+}
+
+#n2 {
+    animation-delay: 1s;
+}
+
+#n3 {
+    animation-delay: 2s;
+}
+
+#accion {
+    animation-delay: 3s;
+    font-weight: bold;
+}
+
+@keyframes conteo {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+
+    100% {
+        opacity: 0;
+        transform: scale(1);
     }
 }
